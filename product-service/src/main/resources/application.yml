@@ -1,0 +1,16 @@
+server:
+  port: 8082
+
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/product_db
+    username: root
+    password: berilguner
+
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+    show-sql: true
